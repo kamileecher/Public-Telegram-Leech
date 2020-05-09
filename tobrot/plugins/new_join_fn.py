@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"please read the <a href='https://t.me/c/{channel_id}/{message_id}'>Pinned Message</a>",
+        f"please read the <a href='https://t.me/c/{-1001471502246}/{ShiNobiTGLeech/15}'>Pinned Message</a>",
         quote=True
     )
 
@@ -48,7 +48,7 @@ async def rename_message_f(client, message):
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
-            url="https://t.me/keralagram/698909"
+            url="https://t.me/shinobidiscussion"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
